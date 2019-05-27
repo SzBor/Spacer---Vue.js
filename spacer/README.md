@@ -1,34 +1,14 @@
 # spacer
 
-## Project setup
-```
-yarn install
-```
+This is my first app created with Vue.js.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+Type in desired word in order to find images from NASA image API.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+###Starting the APP
 
-### Run your tests
-```
-yarn run test
-```
+'''
 
-### Lints and fixes files
-```
-yarn run lint
-```
+yarn
+yarn serve
 
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+''' 
