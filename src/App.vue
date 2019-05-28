@@ -2,11 +2,13 @@
 <template>
   <div :class="[{ flexStart: step === 1 }, 'wrapper']">
     <transition name="slide">    
-      <img src="./assets/Stormtrooper helmet (dithered).png" class="logo" v-if="step === 1">
+
+      <img src="./assets/logo.svg" class="logo" v-if="step === 1">
+
       </transition>
     <transition name="fade">
       <HeroImage v-if="step === 0" />
-    </transition>>
+    </transition>
     <Claim v-if="step === 0" />
     <SearchInput v-model="searchValue" @input="handleInput" :dark="step === 1"/>
   </div>
