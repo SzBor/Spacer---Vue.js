@@ -99,8 +99,11 @@ export default {
     max-width: 70%;
     height: auto;
     background: black;
+    
     img {
+      max-height: 500px;
       width: 100%;
+      
     }
   }
   .description {
