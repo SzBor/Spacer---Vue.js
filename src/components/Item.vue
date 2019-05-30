@@ -25,10 +25,15 @@ export default {
 </script>
 <style lang="scss" scoped>
 .item {
-  width: 300px;
-  height: 300px;
+  min-width: 40vw;
+  height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50%;
+
+  @media (min-width: 768px) {
+      width: 25vw;
+  }
 }
 </style>
 
